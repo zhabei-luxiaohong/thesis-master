@@ -201,7 +201,7 @@ function HeroSection() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <Link
-            href="/login"
+            href="/start"
             className="btn-primary text-base px-8 py-3.5 rounded-xl shadow-xl shadow-indigo-500/25 group"
           >
             Start Writing Free
@@ -476,7 +476,7 @@ const pricingTiers = [
       "Collaboration tools",
     ],
     cta: "Get Started Free",
-    href: "/login",
+    href: "/start",
   },
   {
     name: "Pro",
@@ -667,7 +667,7 @@ function CTASection() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/login"
+              href="/start"
               className="btn-primary text-base px-10 py-4 rounded-xl shadow-xl shadow-indigo-500/25 group"
             >
               Start Writing Free
