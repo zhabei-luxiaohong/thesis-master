@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+.next/
+out/
+dist/
+
+# Database
+web/data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Env
+.env*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+
+# TS
+*.tsbuildinfo
+next-env.d.ts
