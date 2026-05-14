@@ -83,13 +83,13 @@ export function Navbar() {
           {/* Desktop CTA Buttons */}
           <div className="hidden md:flex items-center gap-3">
             <Link
-              href="/auth/login"
+              href="/login"
               className="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white transition-colors duration-200"
             >
               Log in
             </Link>
             <Link
-              href="/auth/signup"
+              href="/login"
               className="px-5 py-2 text-sm font-semibold text-white rounded-lg bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/40 transition-all duration-300"
             >
               Sign up free
@@ -130,13 +130,13 @@ export function Navbar() {
             ))}
             <div className="pt-3 flex flex-col gap-2">
               <Link
-                href="/auth/login"
+                href="/login"
                 className="block w-full text-center px-4 py-2.5 text-sm font-medium text-slate-300 hover:text-white hover:bg-white/5 rounded-lg transition-colors"
               >
                 Log in
               </Link>
               <Link
-                href="/auth/signup"
+                href="/login"
                 className="block w-full text-center px-4 py-2.5 text-sm font-semibold text-white rounded-lg bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 transition-all duration-300"
               >
                 Sign up free

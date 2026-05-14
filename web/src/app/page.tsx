@@ -201,7 +201,7 @@ function HeroSection() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <Link
-            href="/auth/signup"
+            href="/login"
             className="btn-primary text-base px-8 py-3.5 rounded-xl shadow-xl shadow-indigo-500/25 group"
           >
             Start Writing Free
@@ -476,7 +476,7 @@ const pricingTiers = [
       "Collaboration tools",
     ],
     cta: "Get Started Free",
-    href: "/auth/signup",
+    href: "/login",
   },
   {
     name: "Pro",
@@ -497,7 +497,7 @@ const pricingTiers = [
     ],
     missing: [],
     cta: "Start Pro Trial",
-    href: "/auth/signup?plan=pro",
+    href: "/login?plan=pro",
   },
   {
     name: "VIP",
@@ -519,7 +519,7 @@ const pricingTiers = [
     ],
     missing: [],
     cta: "Go VIP",
-    href: "/auth/signup?plan=vip",
+    href: "/login?plan=vip",
   },
 ];
 
@@ -667,7 +667,7 @@ function CTASection() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/auth/signup"
+              href="/login"
               className="btn-primary text-base px-10 py-4 rounded-xl shadow-xl shadow-indigo-500/25 group"
             >
               Start Writing Free
