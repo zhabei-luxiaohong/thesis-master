@@ -44,6 +44,25 @@ export DEEPSEEK_API_KEY="sk-your-key-here"
 - **Yin Case Study**: Evidence triangulation methodology
 - **IMRaD Structure**: Introduction, Methods, Results, and Discussion
 
+## Repository Structure
+
+```
+├── skill/              ← Claude Skill definition
+├── src/                ← Next.js 16 web application
+├── papers/             ← Example thesis projects
+│   ├── light-asset/    ← REITs轻资产转型 (completed)
+│   └── dayuecheng/     ← REITs变革效应·大悦城 (in progress)
+├── mba-tools/          ← Thesis writing tools & prompt templates
+└── skill/frameworks/   ← 6D analysis, Q1-Q4, Yin case study
+```
+
+## Web App
+
+```bash
+npm install && npm run dev
+# http://localhost:3000
+```
+
 ## License
 
 MIT © 2026 Thesis Master
