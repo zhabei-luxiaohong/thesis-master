@@ -9,7 +9,7 @@ out/
 dist/
 
 # Database
-web/data/
+data/
 *.db
 *.db-journal
 *.db-wal
