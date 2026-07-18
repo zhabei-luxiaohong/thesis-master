@@ -74,7 +74,7 @@ curl -I http://localhost:3000
 #### 2. MBA 论文写作专用技能
 - **文件位置**: `.workbuddy/skills/MBA_Thesis_Writing.md`
 - **核心功能**: 
-  - REITs研究框架（5D分析法）
+  - REITs研究框架（6D分析法）
   - 商业案例分析工具
   - 论文结构规划器
   - 进度管理系统
@@ -102,7 +102,7 @@ curl -I http://localhost:3000
 **步骤 3: 研究设计**
 ```
 使用 MBA_Thesis_Writing 技能：
-1. 设计5D分析框架
+1. 设计6D分析框架
 2. 确定案例研究方法
 3. 制定数据收集方案
 ```

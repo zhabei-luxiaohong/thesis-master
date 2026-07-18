@@ -88,7 +88,7 @@ PATH="/Users/op/.workbuddy/binaries/node/versions/22.12.0/bin:$PATH" /Users/op/.
 ## 特定功能配置
 
 ### A. REITs研究模块
-- **分析框架**: 5D分析法
+- **分析框架**: 6D分析法
 - **数据来源**: 国内外REITs数据库
 - **分析工具**: 财务指标计算器、风险评估模型
 
